@@ -1,0 +1,11 @@
+import { TranslationType } from './en';
+export const zh: TranslationType = {
+  header: {
+    home: "首页", about: "关于我们", products: "产品中心", solutions: "解决方案",
+    industries: "服务行业", technology: "技术实力", news: "新闻资讯",
+    careers: "招贤纳士", contact: "联系我们", getQuote: "获取报价", search: "搜索",
+  },
+  home: { hero: { title: "领先的工业过滤解决方案", subtitle: "工业设备", exploreProducts: "探索", requestQuote: "报价" } },
+  footer: { copyright: "2024 工业科技" },
+  common: { loading: "加载中..." },
+};

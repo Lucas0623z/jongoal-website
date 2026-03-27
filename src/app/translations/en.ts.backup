@@ -1,0 +1,11 @@
+export const en = {
+  header: {
+    home: "Home", about: "About Us", products: "Products", solutions: "Solutions",
+    industries: "Industries", technology: "Technology", news: "News",
+    careers: "Careers", contact: "Contact", getQuote: "Get Quote", search: "Search",
+  },
+  home: { hero: { title: "Leading Industrial Filtration Solutions", subtitle: "Industrial equipment", exploreProducts: "Explore", requestQuote: "Quote" } },
+  footer: { copyright: "2024 IndustrialTech" },
+  common: { loading: "Loading..." },
+};
+export type TranslationType = typeof en;
